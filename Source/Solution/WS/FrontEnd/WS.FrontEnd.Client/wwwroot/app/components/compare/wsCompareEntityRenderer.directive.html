@@ -1,0 +1,13 @@
+﻿<div data-ng-show="vm.entitiesCompareObject.CompareProperties.length > 0">
+
+    <div class="row" data-ng-repeat="property in vm.entitiesCompareObject.CompareProperties">
+        <div class="col-xs-6">
+            <ws-compare-property-renderer property="property" value-index="0"></ws-compare-property-renderer>
+        </div>
+
+        <div class="col-xs-6">
+            <ws-compare-property-renderer property="property" value-index="1"></ws-compare-property-renderer>
+        </div>
+    </div>
+
+</div>

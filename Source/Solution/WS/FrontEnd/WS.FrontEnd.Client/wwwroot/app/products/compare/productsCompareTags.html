@@ -1,0 +1,19 @@
+﻿<h3>Tags Compare:</h3>
+<div class="table-responsive ">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                <th>Property</th>
+                <th>First Product Value</th>
+                <th>Second Product Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-ng-repeat="tag in vm.CompareTags | orderBy:PropertyTypeId">
+                <td><b>{{tag.name}}</b></td>
+                <td>{{tag.firstValue}}</td>
+                <td>{{tag.secondValue}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

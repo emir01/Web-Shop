@@ -1,0 +1,49 @@
+﻿<h2>
+    Basic Info
+</h2>
+<hr />
+
+<!-- The form for the most basic stuff -->
+<form>
+    <div class="form-group">
+        <label for="product_name">Name </label>
+        <input data-ng-model="vm.product.Name" type="text" class="form-control" id="product_name" placeholder="Name">
+    </div>
+
+    <div class="form-group">
+        <label>Category</label>
+
+        <!-- Render the category dropdown -->
+        <div class="row">
+            <div class="col-xs-10">
+                <ui-select ng-model="vm.product.Category">
+                    <ui-select-match placeholder="Select a category for the product">{{$select.selected.Name}}</ui-select-match>
+                    <ui-select-choices repeat="category in vm.categories | filter: $select.search ">
+                        <span ng-bind-html="category.Name | highlight: $select.search"></span>
+                    </ui-select-choices>
+                </ui-select>
+            </div>
+            <div class="col-xs-2">
+                <ws-category-edit-action category="vm.product.Category"></ws-category-edit-action>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="product_name">Manufacturer</label>
+
+        <!-- Render the manufacturer dropdown -->
+        <ui-select ng-model="vm.product.Manufacturer">
+            <ui-select-choices repeat="manufacturer in vm.manufacturers | filter: $select.search ">
+                <span ng-bind-html="manufacturer.Name | highlight: $select.search"></span>
+            </ui-select-choices>
+            <ui-select-match placeholder="Select a manufacturer for the product">{{$select.selected.Name}}</ui-select-match>
+        </ui-select>
+    </div>
+
+    <div class="form-group">
+        <label for="product_name">Description </label>
+
+        <trix-editor angular-trix data-ng-model="vm.product.Description"></trix-editor>
+    </div>
+</form>

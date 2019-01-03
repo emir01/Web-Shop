@@ -1,0 +1,7 @@
+﻿<span ng-repeat="category in vm.categories">
+    <span class="category-list-item label" ng-class="{'label-info': vm.isParent(category), 'label-primary category-list-product-category': vm.isFinalCategory(category)}">
+        <category-search-link category-name="category.Name" category-id="category.Id"></category-search-link>
+    </span>
+    
+    <i ng-if="vm.isParent(category)" class="fa fa-long-arrow-right category-list-arrow"></i>
+</span>

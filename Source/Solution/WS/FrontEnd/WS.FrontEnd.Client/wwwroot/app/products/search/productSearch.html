@@ -1,0 +1,170 @@
+﻿<div class="row">
+    <div view-title="Search"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Filters</div>
+            <div class="panel-body">
+                <form dw-loading="products">
+                    <label>
+                        <h4>Basic</h4>
+                    </label>
+
+                    <div class="form-group">
+                        <label><b>Name</b></label>
+                        <input type="text" ng-model="vm.searchParams.name" focus-on focus-on-key="70" on-enter-key="vm.search" class="form-control" placeholder="Search by Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <b>
+                                Category
+                            </b>
+                        </label>
+                        <category-dropdown selected-category="vm.selectedCategory" categories="vm.categories"></category-dropdown>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <b>
+                                Manufacturer
+                            </b>
+                        </label>
+                        <manufacturer-dropdown selected-manufacturer="vm.selectedManufacturer" manufacturers="vm.manufacturers"></manufacturer-dropdown>
+                    </div>
+
+                    <label>
+                        <h4>Special</h4>
+                    </label>
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-xs" ng-model="vm.searchParams.onSale" uib-btn-checkbox btn-checkbox-true="true" btn-checkbox-false="false">
+                                    <i class="fa fa-dollar"></i>
+                                    On Sale!
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <label>
+                        <h4>Properties</h4>
+                    </label>
+
+                    <div class="row" ng-repeat="tagFilter in  vm.tagFilters">
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <label><b>Property</b></label>
+                                <tag-types-dropdown selected-tag-type="tagFilter.tagType" selected-tag-type-filters="vm.tagFilters" tag-types="vm.tagTypes"></tag-types-dropdown>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-xs-10">
+                                        <input type="text" ng-model="tagFilter.filterValue" placeholder="Value" class="form-control col-xs-10" on-enter-key="vm.search" />
+                                    </div>
+                                    <button class="btn btn-danger" ng-click="vm.removeTagFilter(tagFilter)">
+                                        <i class="fa fa-trash "></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <button class="btn btn-primary btn-xs clear-single-filter-action" ng-click="vm.addTagFilter()">
+                                <i class="fa fa-plus"></i> Add Property Filter
+                            </button>
+                        </div>
+                    </div>
+
+                    <label>
+                        <h4>Price</h4>
+                    </label>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div on-handle-up="vm.priceRangeChange($event)"
+                                     range-slider
+                                     min="vm.searchConfig.minPrice"
+                                     max="vm.searchConfig.maxPrice"
+                                     model-min="vm.searchParams.minPrice"
+                                     show-values="true"
+                                     filter="currency:'$'"
+                                     model-max="vm.searchParams.maxPrice"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group text-center">
+                        <button class="btn btn-primary" data-ng-click="vm.search()">
+                            <i class="fa fa-search">
+                            </i>
+                            Search
+                        </button>
+
+                        <button class="btn btn-danger" data-ng-click="vm.clearSearch()">
+                            <i class="fa fa-minus-square-o"></i>
+                            Clear
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-9" dw-loading="products">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label><b>Sort:</b></label>
+                                <div class="btn-group">
+                                    <label class="btn btn-primary btn-xs"
+                                           ng-repeat="sort in vm.sortOptions"
+                                           uib-btn-radio="sort.value"
+                                           ng-model="vm.searchParams.sort"
+                                           init-tooltip="sort.label"
+                                           data-toggle="tooltip"
+                                           data-placement="top">
+                                        <i class="fa" ng-class="sort.icon"></i>
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xs-6">
+                        <span class="pull-right">
+                            Found <b>{{vm.products.length}}</b>
+                            products
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-body">
+                <!-- Use the product list directive to render the products inside the column -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div ng-if="vm.products.length > 0"
+                             ws-product-list
+                             products="vm.products"
+                             product-card-class="col-xs-12 col-sm-6 col-md-6 col-lg-4 product-card"
+                             product-nav-root="#/product/details/"></div>
+                        <div class="text-center" ng-if="vm.products.length == 0">
+                            <h1>There are currently no products to display!</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

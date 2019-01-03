@@ -1,0 +1,31 @@
+﻿.compare-sidebar {
+    position:fixed;
+
+    top: 140px;
+    right: -10px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    border: 1px solid #ccc;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+
+    background-color: #fff;
+
+    width: 300px;
+
+    height: 500px;    
+}
+
+    .compare-sidebar h3 {
+        margin-top: 0;
+    }
+
+    .compare-sidebar .list-group-item {
+        margin-bottom: 6px;
+    }
+
+    .compare-item-text{
+        font-size: 14px;
+    }

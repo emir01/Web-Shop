@@ -1,0 +1,308 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1556" measuredH="760" mockupW="1538" mockupH="750">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="18" y="10" w="1538" h="750" measuredW="1538" measuredH="750" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="19:4">
+          <selectedIndex>2</selectedIndex>
+        </override>
+        <override controlID="19:0">
+          <text>Bike%20Store%0Ahttp%3A//bikestore.webshop.mk/%23/contact</text>
+        </override>
+        <src>./assets/01_Client_Base.bmml#00_Client_Base</src>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="41" y="433" w="-1" h="-1" measuredW="123" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Contact%20Us%20Now%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::HRule" x="41" y="457" w="420" h="-1" measuredW="100" measuredH="10" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Component" x="41" y="472" w="215" h="27" measuredW="215" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0">
+          <text>Your%20Email</text>
+        </override>
+        <override controlID="1">
+          <text>some_other@gmail.com</text>
+        </override>
+        <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Component" x="41" y="514" w="215" h="27" measuredW="215" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0">
+          <text>Subject</text>
+        </override>
+        <override controlID="1">
+          <text>some%20subject</text>
+        </override>
+        <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::TextArea" x="127" y="548" w="334" h="140" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Label" x="41" y="548" w="-1" h="-1" measuredW="54" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Message</text>
+        <text_links>%5B%5D</text_links>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Button" x="401" y="695" w="-1" h="-1" measuredW="53" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Send</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::VRule" x="548" y="171" w="-1" h="532" measuredW="10" measuredH="100" zOrder="9" locked="false" isInGroup="-1"/>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="567" y="171" w="-1" h="-1" measuredW="153" measuredH="24" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>16</size>
+        <text>Our%20Other%20Locations%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="__group__" x="41" y="195" w="492" h="243" measuredW="492" measuredH="243" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="492" h="243" measuredW="492" measuredH="243" zOrder="0" locked="false" isInGroup="41">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="492" h="243" measuredW="492" measuredH="243" zOrder="0" locked="false" isInGroup="0">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="0" y="12" w="215" h="27" measuredW="215" measuredH="27" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>Phone</text>
+                    </override>
+                    <override controlID="1">
+                      <text>+38975634768</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="0" y="54" w="215" h="27" measuredW="215" measuredH="27" zOrder="1" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>Mail</text>
+                    </override>
+                    <override controlID="1">
+                      <text>some@gmail.com</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="2" controlTypeID="com.balsamiq.mockups::Map" x="240" y="0" w="-1" h="-1" measuredW="252" measuredH="222" zOrder="2" locked="false" isInGroup="0"/>
+                <control controlID="3" controlTypeID="com.balsamiq.mockups::Component" x="0" y="96" w="215" h="27" measuredW="215" measuredH="27" zOrder="3" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>City</text>
+                    </override>
+                    <override controlID="1">
+                      <text>Skopje</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="4" controlTypeID="com.balsamiq.mockups::Component" x="0" y="138" w="215" h="27" measuredW="215" measuredH="27" zOrder="4" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>Country</text>
+                    </override>
+                    <override controlID="1">
+                      <text>Macedonia</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="5" controlTypeID="com.balsamiq.mockups::Component" x="0" y="180" w="215" h="27" measuredW="215" measuredH="27" zOrder="5" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>Address</text>
+                    </override>
+                    <override controlID="1">
+                      <text>ul.%20Makedonia%20bb</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="325" y="222" w="-1" h="-1" measuredW="43" measuredH="21" zOrder="6" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <text>Offices</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="390" y="87" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="1" locked="false" isInGroup="41">
+          <controlProperties>
+            <color>13576743</color>
+            <icon>DownArrowIcon%7Clarge</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="42" controlTypeID="__group__" x="581" y="200" w="492" h="243" measuredW="492" measuredH="243" zOrder="11" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="492" h="243" measuredW="492" measuredH="243" zOrder="0" locked="false" isInGroup="42">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="492" h="243" measuredW="492" measuredH="243" zOrder="0" locked="false" isInGroup="0">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="0" y="12" w="215" h="27" measuredW="215" measuredH="27" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>Phone</text>
+                    </override>
+                    <override controlID="1">
+                      <text>+38975634768</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="0" y="54" w="215" h="27" measuredW="215" measuredH="27" zOrder="1" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>Mail</text>
+                    </override>
+                    <override controlID="1">
+                      <text>some@gmail.com</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="2" controlTypeID="com.balsamiq.mockups::Map" x="240" y="0" w="-1" h="-1" measuredW="252" measuredH="222" zOrder="2" locked="false" isInGroup="0"/>
+                <control controlID="3" controlTypeID="com.balsamiq.mockups::Component" x="0" y="96" w="215" h="27" measuredW="215" measuredH="27" zOrder="3" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>City</text>
+                    </override>
+                    <override controlID="1">
+                      <text>Skopje</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="4" controlTypeID="com.balsamiq.mockups::Component" x="0" y="138" w="215" h="27" measuredW="215" measuredH="27" zOrder="4" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>Country</text>
+                    </override>
+                    <override controlID="1">
+                      <text>Macedonia</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="5" controlTypeID="com.balsamiq.mockups::Component" x="0" y="180" w="215" h="27" measuredW="215" measuredH="27" zOrder="5" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>Address</text>
+                    </override>
+                    <override controlID="1">
+                      <text>ul.%20Makedonia%20bb</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="325" y="222" w="-1" h="-1" measuredW="69" measuredH="21" zOrder="6" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <text>Sale%20Point%201</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="253" y="23" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="1" locked="false" isInGroup="42">
+          <controlProperties>
+            <color>13576743</color>
+            <icon>DownArrowIcon%7Clarge</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="43" controlTypeID="__group__" x="581" y="457" w="492" h="243" measuredW="492" measuredH="243" zOrder="12" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="492" h="243" measuredW="492" measuredH="243" zOrder="0" locked="false" isInGroup="43">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="492" h="243" measuredW="492" measuredH="243" zOrder="0" locked="false" isInGroup="0">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="0" y="12" w="215" h="27" measuredW="215" measuredH="27" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>Phone</text>
+                    </override>
+                    <override controlID="1">
+                      <text>+38975634768</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="0" y="54" w="215" h="27" measuredW="215" measuredH="27" zOrder="1" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>Mail</text>
+                    </override>
+                    <override controlID="1">
+                      <text>some@gmail.com</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="2" controlTypeID="com.balsamiq.mockups::Map" x="240" y="0" w="-1" h="-1" measuredW="252" measuredH="222" zOrder="2" locked="false" isInGroup="0"/>
+                <control controlID="3" controlTypeID="com.balsamiq.mockups::Component" x="0" y="96" w="215" h="27" measuredW="215" measuredH="27" zOrder="3" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>City</text>
+                    </override>
+                    <override controlID="1">
+                      <text>Skopje</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="4" controlTypeID="com.balsamiq.mockups::Component" x="0" y="138" w="215" h="27" measuredW="215" measuredH="27" zOrder="4" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>Country</text>
+                    </override>
+                    <override controlID="1">
+                      <text>Macedonia</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="5" controlTypeID="com.balsamiq.mockups::Component" x="0" y="180" w="215" h="27" measuredW="215" measuredH="27" zOrder="5" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <override controlID="0">
+                      <text>Address</text>
+                    </override>
+                    <override controlID="1">
+                      <text>ul.%20Makedonia%20bb</text>
+                    </override>
+                    <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+                  </controlProperties>
+                </control>
+                <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="325" y="222" w="-1" h="-1" measuredW="72" measuredH="21" zOrder="6" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <text>Sale%20Point%202</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="245" y="156" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="1" locked="false" isInGroup="43">
+          <controlProperties>
+            <color>13576743</color>
+            <icon>DownArrowIcon%7Clarge</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::HRule" x="567" y="440" w="534" h="-1" measuredW="100" measuredH="10" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Label" x="41" y="171" w="-1" h="-1" measuredW="101" measuredH="24" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Main%20Location</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

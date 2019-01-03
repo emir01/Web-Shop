@@ -1,0 +1,41 @@
+{
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-animate": "1.5.8",
+    "angular-bootstrap": "2.0.0",
+    "angular-loading": "0.1.4",
+    "angular-loading-bar": "0.9.0",
+    "angular-local-storage": "0.2.5",
+    "angular-rangeslider": "0.0.14",
+    "angular-resource": "1.5.8",
+    "angular-sanitize": "1.4.6",
+    "angular-trix": "1.0.2",
+    "angular-ui-grid": "3.0.6",
+    "angular-ui-router": "0.3.1",
+    "angular-ui-select": "0.19.4",
+    "animate.css": "3.5.2",
+    "bootstrap": "3.3.7",
+    "font-awesome": "4.6.0",
+    "format-as-currency": "3.1.0",
+    "ng-currency": "0.9.6",
+    "ng-file-upload": "11.0.0",
+    "ng-focus-if": "1.0.2",
+    "toastr": "~2.0.1",
+    "trix": "0.9.7",
+    "underscore": "~1.8.3",
+    "lodash": "*",
+    "moment": "^2.17.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "name": "WS.FrontEnd.Client",
+  "private": true,
+  "resolutions": {
+    "angular": "1.5.8"
+  }
+}

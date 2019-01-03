@@ -1,0 +1,32 @@
+﻿<div class="row">
+    <action-well>
+        <div class="col-xs-6">
+            <product-search-link link-text="Back To Search"></product-search-link>
+        </div>
+        <div class="col-xs-6">
+            <div class="pull-right">
+                <ws-product-edit-action product="vm.product"></ws-product-edit-action>
+                <ws-compare-action ws-compare-action-product="vm.product"></ws-compare-action>
+            </div>
+        </div>
+    </action-well>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <ws-product-details product="vm.product" show-image="true" show-tags="true"></ws-product-details>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel panel-default">
+            <div class="text-center panel-heading">Related Products</div>
+            <div class="panel-body">
+                <div ws-product-list
+                     product-card-class="col-xs-12 col-sm-12 col-md-4 col-lg-4"
+                     products="vm.relatedProducts" 
+                     product-nav-root="#/product/details/"></div>
+            </div>
+        </div>
+    </div>
+</div>

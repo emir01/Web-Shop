@@ -1,0 +1,18 @@
+﻿<h3>Category Image</h3>
+<hr />
+
+<div class="text-center row separated-row">
+    <div class="col-xs-12">
+        <button class="btn btn-success" ngf-select="vm.Upload($file)">
+            <i class="fa fa-upload"></i>
+            Upload File
+        </button>
+    </div>
+</div>
+
+<ws-images-manager ws-image-data="vm.category.CategoryImage"
+                   ws-is-single-image="true"
+                   ws-image-uri-prop-name="Uri"
+                   ws-image-removed-prop-value="4"
+                   ws-image-removed-prop-name="State">
+</ws-images-manager>

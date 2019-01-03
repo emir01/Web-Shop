@@ -1,0 +1,30 @@
+﻿<div class="col-xs-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-md-offset-4">
+                <h1 class="text-center login-title">Sign in to access your Web Shop Admin Panel!</h1>
+                <div class="account-wall">
+                    <h1 class="text-center">
+                        <i class="fa fa-shopping-cart"></i>
+                        WS
+                    </h1>
+
+                    <form class="form-signin">
+
+                        <input type="text" class="form-control" placeholder="Username" required autofocus data-ng-model="vm.loginInfo.userName">
+
+                        <input type="password" class="form-control" placeholder="Password" required data-ng-model="vm.loginInfo.password">
+
+                        <button class="btn btn-lg btn-primary btn-block" type="submit" data-ng-click="vm.login()">
+                            <i class="fa fa-sign-in"></i>
+                            Sign in
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

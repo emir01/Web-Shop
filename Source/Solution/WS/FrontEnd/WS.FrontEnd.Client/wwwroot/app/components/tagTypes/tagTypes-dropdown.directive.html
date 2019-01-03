@@ -1,0 +1,6 @@
+﻿<ui-select ng-model="vm.selectedTagType">
+    <ui-select-match allow-clear="true" placeholder="Property">{{$select.selected.Name}}</ui-select-match>
+    <ui-select-choices repeat="tagType in vm.tagTypes | filter:$select.search | tagTypeNotSelected:vm.selectedTagTypeFilters">
+        <span ng-bind-html="tagType.Name | highlight: $select.search"></span>
+    </ui-select-choices>
+</ui-select>

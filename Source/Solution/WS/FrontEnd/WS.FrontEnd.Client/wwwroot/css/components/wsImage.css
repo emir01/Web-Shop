@@ -1,0 +1,10 @@
+﻿.ws-image-container {
+    text-align: center;
+}
+
+.wsImage {
+    height: auto;
+    width: auto;
+    max-height: 150px;
+    display: inline-block;
+}

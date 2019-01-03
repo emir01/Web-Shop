@@ -1,0 +1,18 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="240" measuredH="60" mockupW="165" mockupH="24">
+  <controls>
+    <control controlID="2" controlTypeID="__group__" x="75" y="36" w="165" h="24" measuredW="165" measuredH="24" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="2" w="-1" h="-1" measuredW="45" measuredH="21" zOrder="0" locked="false" isInGroup="2">
+          <controlProperties>
+            <text>%5B%20label%20%5D</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::ComboBox" x="86" y="0" w="-1" h="-1" measuredW="79" measuredH="24" zOrder="1" locked="false" isInGroup="2">
+          <controlProperties>
+            <text>%5B%20value%20%5D</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

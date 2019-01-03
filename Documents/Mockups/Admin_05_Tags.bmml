@@ -1,0 +1,59 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1538" measuredH="760" mockupW="1538" mockupH="750">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::List" x="130" y="261" w="285" h="264" measuredW="100" measuredH="172" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hasHeader>true</hasHeader>
+        <selectedIndex>0</selectedIndex>
+        <text>Name%0AFront%20Suspension%0AFront%20Tire%0ABack%20Tire%0AFront%20Shifter%0ABack%20Shifter%0AStem%0AFrame%20Type%0AFrame%20Weight</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="130" y="219" w="-1" h="-1" measuredW="64" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PlusBigIcon%7Cxsmall</icon>
+        <text>Add</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="206" y="219" w="-1" h="-1" measuredW="80" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>Trash2Icon%7Cxsmall</icon>
+        <text>Delete</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::SearchBox" x="295" y="220" w="-1" h="-1" measuredW="120" measuredH="25" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Tree" x="503" y="261" w="300" h="264" measuredW="300" measuredH="285" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>3</selectedIndex>
+        <text>F%20Products%0A%20%5Bx%5D%20Bikes%0A%20%20%5B%5D%20Road%20%20%20%0A%20%20%5Bx%5D%20MTB%0A%20%20%20%5Bx%5DTrek%0A%20%20%20%5Bx%5DSpecialized%0A%20%20%20%5Bx%5DGiant%0A%20%20%20%5Bx%5DGT%0A%20%20%5B%5D%20Hybrid%0A%20%20%5Bx%5D%20Cross%0A%20%5B%5D%20Gear%0A%20%5B%5D%20Clothing%0A%20%5B%5D%20Accessories</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Icon" x="440" y="361" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>RightArrowIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::StickyNote" x="818" y="269" w="212" h="163" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Allow%20detailed%20editing%20as%20to%20which%20tag%20is%20appliable%20to%20which%20product%20categories%20and%20sub%20categories.%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Component" x="0" y="10" w="1538" h="750" measuredW="1538" measuredH="750" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C179%2C110%2C209%22%20href%3D%22Admin_01_Dashboard.bmml%22%20alt%3D%22Admin_01_Dashboard%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C207%2C110%2C237%22%20href%3D%22Admin_02_General.bmml%22%20alt%3D%22Admin_02_General%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C235%2C110%2C265%22%20href%3D%22Admin_03_Categories.bmml%22%20alt%3D%22Admin_03_Categories%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C263%2C110%2C293%22%20href%3D%22Admin_04_Manufacturers.bmml%22%20alt%3D%22Admin_04_Manufacturers%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C291%2C110%2C321%22%20href%3D%22Admin_05_Tags.bmml%22%20alt%3D%22Admin_05_Tags%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C319%2C110%2C349%22%20href%3D%22Admin_06_Products.bmml%22%20alt%3D%22Admin_06_Products%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C347%2C110%2C377%22%20href%3D%22Admin_07_StockMetricTemplates.bmml%22%20alt%3D%22Admin_07_StockMetricTemplates%22%20id%3D%221%22/%3E</map>
+        <override controlID="0">
+          <text>Bike%20Store%20Web%20Shop%0Ahttp%3A//bikestore.webshop.mk/%23/admin/tags</text>
+        </override>
+        <override controlID="1">
+          <hrefs>Admin_01_Dashboard%26bm%3BAdmin_01_Dashboard.bmml%26bm%3BAdmin_01_Dashboard.bmml%26bm%3BAdmin_01_Dashboard.bmml%2CAdmin_02_General%26bm%3BAdmin_02_General.bmml%26bm%3BAdmin_02_General.bmml%26bm%3BAdmin_02_General.bmml%2CAdmin_03_Categories%26bm%3BAdmin_03_Categories.bmml%26bm%3BAdmin_03_Categories.bmml%26bm%3BAdmin_03_Categories.bmml%2CAdmin_04_Manufacturers%26bm%3BAdmin_04_Manufacturers.bmml%26bm%3BAdmin_04_Manufacturers.bmml%26bm%3BAdmin_04_Manufacturers.bmml%2CAdmin_05_Tags%26bm%3BAdmin_05_Tags.bmml%26bm%3BAdmin_05_Tags.bmml%26bm%3BAdmin_05_Tags.bmml%2CAdmin_06_Products%26bm%3BAdmin_06_Products.bmml%26bm%3BAdmin_06_Products.bmml%26bm%3BAdmin_06_Products.bmml%2CAdmin_07_StockMetricTemplates%26bm%3BAdmin_07_StockMetricTemplates.bmml%26bm%3BAdmin_07_StockMetricTemplates.bmml%26bm%3BAdmin_07_StockMetricTemplates.bmml</hrefs>
+          <selectedIndex>4</selectedIndex>
+          <text>Dashboard%0AGeneral%0ACategories%0AManufacturers%0ATags%0AProducts%0AS.M%20Tmpls</text>
+        </override>
+        <override controlID="2">
+          <text>Tags</text>
+        </override>
+        <src>./assets/00_Admin_Base.bmml#00_Admin_Base</src>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

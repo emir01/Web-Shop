@@ -1,0 +1,15 @@
+﻿<h2>
+    Product Details
+</h2>
+<hr />
+
+<form>
+    <div class="form-group col-xs-12 col-sm-6" data-ng-repeat="prop in vm.product.Properties">
+        <label for="{{prop.Name}}">
+            <b>
+                {{prop.Name}}
+            </b>
+        </label>
+        <input data-ng-model="prop.Value" type="text" class="form-control" id="{{prop.Name}}"/>
+    </div>
+</form>

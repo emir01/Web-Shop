@@ -1,0 +1,56 @@
+﻿<div view-title="Manufacturers"></div>
+
+<div class="col-xs-12">
+    <h3>There are currently <b>{{vm.manufacturers.length}}</b> Manufacturers in the system</h3>
+    <hr />
+    <action-well class="text-center">
+        <button data-ng-click="vm.AddNewManufacturer()" class="btn btn-success">
+            <i class="fa fa-plus">
+            </i>
+            Add New Manufacturer
+        </button>
+    </action-well>
+
+    <table ng-show="vm.manufacturers.length > 0" class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>
+                    Manufacturer Id
+                </th>
+
+                <th>
+                    Manufacturer Name
+                </th>
+
+                <th>
+                    Actions
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr class="text-center" data-ng-repeat="manufacturer in vm.manufacturers">
+                <td>{{manufacturer.Id}}</td>
+                <td>{{manufacturer.Name}}</td>
+                <td>
+                    <button class="btn btn-primary" data-ng-click="vm.EditManufacturer(manufacturer)">
+                        <i class="fa fa-edit"></i>
+                        Edit
+                    </button>
+
+                    <button class="btn btn-danger"
+                            ws-confirm-click-action
+                            ws-confirm-click-action-method="vm.DeleteManufacturerAfterConfirm"
+                            ws-confirm-action-config="{message:'Are you sure you want to delete the manufacturer?', data:manufacturer}">
+                        <i class="fa fa-trash"></i>
+                        Delete
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Include the template for the modal window -->
+<div data-ng-include="'app/administration/manufacturers/manufacturerModal.html'"></div>
+

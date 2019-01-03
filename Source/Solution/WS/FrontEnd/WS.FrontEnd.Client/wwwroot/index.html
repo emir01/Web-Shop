@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shop Homepage - Start Bootstrap Template</title>
+
+    <!-- build:css css/minified/style.css -->
+    <!-- Third Party CSS -->
+    <link href="lib/toastr/toastr.min.css" rel="stylesheet">
+    <link href="lib/animate.css/animate.min.css" rel="stylesheet">
+    <link href="lib/angular-bootstrap/ui-bootstrap-csp.css" rel="stylesheet">
+    <link href="lib/angular-ui-grid/ui-grid.min.css" rel="stylesheet">
+    <link href="lib/angular-ui-select/dist/select.min.css" rel="stylesheet">
+    <link href="lib/trix/dist/trix.css" rel="stylesheet" type="text/css">
+    <link href="lib/angular-rangeslider/angular.rangeSlider.css" rel="stylesheet" type="text/css">
+    <link href="lib/angular-loading/angular-loading.css" rel="stylesheet" type="text/css">
+    <link href="lib/angular-loading-bar/build/loading-bar.css" rel="stylesheet" type="text/css">
+
+    <!-- Font awesome -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/template/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <!--<link href="css/template/shop-homepage.css" rebol="stylesheet">-->
+    <link href="css/core.css" rel="stylesheet">
+    <link href="css/overides.css" rel="stylesheet">
+
+    <!-- Views CSS -->
+    <link href="css/views/categoryManagement.css" rel="stylesheet">
+    <link href="css/views/productCompare.css" rel="stylesheet">
+    <link href="css/views/productDetails.css" rel="stylesheet">
+    <link href="css/views/login.css" rel="stylesheet">
+    <link href="css/views/search.css" rel="stylesheet">
+
+    <!-- Components CSS -->
+    <link href="css/components/wsTreeData.style.css" rel="stylesheet">
+    <link href="css/components/wsImagesManager.style.css" rel="stylesheet">
+    <link href="css/components/wsImage.css" rel="stylesheet">
+    <link href="css/components/actionWell.css" rel="stylesheet">
+    <link href="css/components/productList.css" rel="stylesheet">
+    <link href="css/components/categoryList.css" rel="stylesheet">
+    <link href="css/components/uiGridCustom.style.css" rel="stylesheet">
+    <link href="css/components/wsCompareSidebar.style.css" rel="stylesheet">
+    <script src="lib/ez-plus/css/jquery.ez-plus.css"></script>
+    <!-- endbuild -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-ng-app="ws.app" dw-loading="view" dw-loading-options="{className: 'custom-loading'}" keydown-broadcaster="[{key:27}, {key:70, withControl:true, withShift:true}]">
+    <!-- ACTUAL APPLICATION -->
+    <div ui-view></div>
+
+    <!-- build:js js/lib.js -->
+    <!-- jQuery -->
+    <script src="lib/jquery/dist/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Toastr -->
+    <script src="lib/toastr/toastr.min.js"></script>
+
+    <!-- Spinjs -->
+    <script src="lib/spin.js/spin.js"></script>
+
+    <!-- Lodash -->
+    <script src="lib/lodash/dist/lodash.min.js"></script>
+
+    <!-- Trix -->
+    <script src="lib/trix/dist/trix.js"></script>
+
+<!-- Moment -->
+    <script src="lib/moment/min/moment.min.js"></script>
+
+    <!-- ez plus jquery -->
+    <script src="lib/ez-plus/src/jquery.ez-plus.js"></script>
+
+    <!-- Angular -->
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-animate/angular-animate.min.js"></script>
+    <script src="lib/angular-resource/angular-resource.min.js"></script>
+    <script src="lib/angular-local-storage/dist/angular-local-storage.min.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="lib/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="lib/angular-ui-grid/ui-grid.min.js"></script>
+    <script src="lib/angular-ui-select/dist/select.js"></script>
+    <script src="lib/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="lib/angular-loading/angular-loading.js"></script>
+    <script src="lib/angular-loading-bar/build/loading-bar.js"></script>
+
+    <!-- File Upload related -->
+    <script src="lib/ng-file-upload/ng-file-upload-all.min.js"></script>
+    <script src="lib/ng-file-upload/ng-file-upload-shim.min.js"></script>
+    <script src="lib/ng-file-upload/FileAPI.min.js"></script>
+
+    <!-- Angular Focus Component -->
+    <script src="lib/ng-focus-if/focusIf.js"></script>
+
+    <!--Angular Currency-->
+    <script src="lib/ng-currency/dist/ng-currency.min.js"></script>
+
+    <!--Angular Trix (RTE)-->
+    <script src="lib/angular-trix/dist/angular-trix.min.js"></script>
+
+    <!--Angular EZ Plus-->
+    <script src="lib/angular-ez-plus/js/angular-ezplus.js"></script>
+
+    <!--Angular Range Slider-->
+    <script src="lib/angular-rangeslider/angular.rangeSlider.js"></script>
+
+    <!--Format as currency-->
+    <script src="lib/format-as-currency/dist/format-as-currency.js"></script>
+
+    <!-- endbuild -->
+    <!-- build:js1 js/app.js -->
+    <!-- WS Modules -->
+    <!-- Main application module -->
+    <script src="app/app.module.js"></script>
+
+    <!-- Layout -->
+    <script src="app/layout/layout.module.js"></script>
+    <script src="app/layout/nav.controller.js"></script>
+
+    <!-- --------------------------------------- -->
+    <!-- Blocks -->
+    <!-- --------------------------------------- -->
+    <!-- Logging -->
+    <script src="app/blocks/logger/logger.module.js"></script>
+    <script src="app/blocks/logger/logger.js"></script>
+
+    <!-- Entities -->
+    <script src="app/blocks/entities/entities.module.js"></script>
+    <script src="app/blocks/entities/DirtyChecking.service.js"></script>
+    <script src="app/blocks/entities/EntityEdit.service.js"></script>
+    <script src="app/blocks/entities/EntityModalController.controller.js"></script>
+    <script src="app/blocks/entities/entity.StateFilter.js"></script>
+
+    <!-- Authorization -->
+    <script src="app/blocks/authorization/authorization.module.js"></script>
+    <script src="app/blocks/authorization/userAuthorization.service.js"></script>
+    <script src="app/blocks/authorization/authorizationInterceptor.service.js"></script>
+    <script src="app/blocks/authorization/stateAuthorizationConfiguration.service.js"></script>
+
+    <!-- Utilities -->
+    <script src="app/blocks/utilities/utilities.module.js"></script>
+    <script src="app/blocks/utilities/data.utilities.service.js"></script>
+
+    <!-- Core application module and configuration -->
+    <script src="app/core/core.module.js"></script>
+    <script src="app/core/core.constants.js"></script>
+    <script src="app/core/core.config.js"></script>
+    <script src="app/core/core.common.js"></script>
+    <script src="app/core/core.states.js"></script>
+
+    <!-- Components -->
+    <script src="app/components/components.module.js"></script>
+
+    <!-- Filters -->
+    <script src="app/components/filters/percentage.filter.js"></script>
+    <script src="app/components/filters/tagTypeNotSelectedFilter.filter.js"></script>
+
+    <!-- Directives -->
+    <script src="app/components/treeData/wsTreeData.directive.js"></script>
+
+    <!-- Actions and Buttons -->
+    <script src="app/components/events/actions/wsConfirmClickActionModal.directive.js"></script>
+    <script src="app/components/events/actions/wsCompareAction.directive.js"></script>
+
+    <script src="app/components/events/actions/wsProductEditAction.directive.js"></script>
+    <script src="app/components/events/actions/wsProductDeleteAction.directive.js"></script>
+    <script src="app/components/events/actions/wsCategoryEditAction.directive.js"></script>
+
+    <!-- Binders -->
+    <script src="app/components/events/bindings/on-enter-key.directive.js"></script>
+    <script src="app/components/events/bindings/keydown-broadcaster.directive.js"></script>
+    <script src="app/components/events/bindings/focus-on-key.directive.js"></script>
+
+    <!--Product Components-->
+    <script src="app/components/products/details/productDetail.directive.js"></script>
+    <script src="app/components/products/details/productName.directive.js"></script>
+    <script src="app/components/products/details/productPrice.directive.js"></script>
+    <script src="app/components/products/details/productCategory.directive.js"></script>
+    <script src="app/components/products/details/productDescription.directive.js"></script>
+    <script src="app/components/products/list/productList.directive.js"></script>
+    <script src="app/components/products/tags/productTags.directive.js"></script>
+
+    <!-- Category Components -->
+    <script src="app/components/categories/category-dropdown.directive.js"></script>
+    <script src="app/components/categories/category-list.directive.js"></script>
+    <script src="app/components/categories/category-search-link.directive.js"></script>
+
+    <!-- Manufacturer Components -->
+    <script src="app/components/manufacturers/manufacturer-dropdown.directive.js"></script>
+    <script src="app/components/manufacturers/manufacturer-search-link.directive.js"></script>
+
+    <!-- Tag Types Components -->
+    <script src="app/components/tagTypes/tagTypes-dropdown.directive.js"></script>
+
+    <!-- Compare Components -->
+    <script src="app/components/compare/wsCompareSidebar.directive.js"></script>
+    <script src="app/components/compare/wsComparePropertyRenderer.directive.js"></script>
+    <script src="app/components/compare/wsCompareEntityRenderer.directive.js"></script>
+
+    <!-- Images -->
+    <script src="app/components/images/wsImage/wsImage.directive.js"></script>
+    <script src="app/components/images/wsImagesManager/wsImagesManager.directive.js"></script>
+
+    <!-- UI Components -->
+    <script src="app/components/ui/actionWell.directive.js"></script>
+    <script src="app/components/ui/title/viewTitle.directive.js"></script>
+    <script src="app/components/ui/LoadmaskInterceptor.js"></script>
+    <script src="app/components/ui/tooltips/init-tooltip.directive.js"></script>
+
+    <!-- Navigation Components -->
+    <script src="app/components/navigation/product-search-link.directive.js"></script>
+
+    <!--Auth Components-->
+    <script src="app/components/auth/showIfLogged.directive.js"></script>
+
+    <!-- Services -->
+    <script src="app/services/data/product.data.service.js"></script>
+    <script src="app/services/data/tag.data.service.js"></script>
+    <script src="app/services/data/manufacturer.data.service.js"></script>
+    <script src="app/services/data/files.data.service.js"></script>
+    <script src="app/services/data/category.data.service.js"></script>
+    <script src="app/services/data/all.data.service.js"></script>
+
+    <script src="app/services/images/product.images.service.js"></script>
+    <script src="app/services/images/category.images.service.js"></script>
+    <script src="app/services/images/all.images.service.js"></script>
+
+    <script src="app/services/compare/product.compare.service.js"></script>
+    <script src="app/services/compare/tag.compare.service.js"></script>
+    <script src="app/services/compare/all.compare.service.js"></script>
+
+    <script src="app/services/app.navigation.service.js"></script>
+
+    <script src="app/services/products/products.search.service.js"></script>
+
+    <script src="app/services/infrastructure/language.service.js"></script>
+    <script src="app/services/infrastructure/error.service.js"></script>
+
+    <script src="app/services/app.services.js"></script>
+
+    <!-- Administration -->
+    <script src="app/administration/admin.module.js"></script>
+    <script src="app/administration/admin.states.js"></script>
+
+    <!-- Category Management -->
+    <script src="app/administration/categories/categoryManagement.controller.js"></script>
+    <script src="app/administration/categories/categoryManagementEdit.controller.js"></script>
+
+    <!-- Manufacturer Management -->
+    <script src="app/administration/manufacturers/manufacturerManagement.controller.js"></script>
+
+    <!-- Tag Management -->
+    <script src="app/administration/tags/tagManagement.controller.js"></script>
+
+    <!-- Product Management -->
+    <script src="app/administration/products/productManagement.controller.js"></script>
+    <script src="app/administration/products/productEdit.controller.js"></script>
+
+    <!-- User Login -->
+    <script src="app/administration/users/userLogin.controller.js"></script>
+
+    <!-- Products -->
+    <script src="app/products/products.module.js"></script>
+    <script src="app/products/product.states.js"></script>
+
+    <script src="app/products/compare/productsCompare.controller.js"></script>
+    <script src="app/products/details/productDetails.controller.js"></script>
+    <script src="app/products/search/productSearch.controller.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

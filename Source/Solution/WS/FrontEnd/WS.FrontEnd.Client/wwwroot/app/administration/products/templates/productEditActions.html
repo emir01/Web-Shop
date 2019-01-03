@@ -1,0 +1,47 @@
+﻿<action-well>
+    <div class="col-xs-12 col-sm-12 col-md-6">
+        <a class="btn btn-xs btn-primary" ui-sref="admin.products.list">
+            <i class="fa fa-backward"></i>
+            Product Management
+        </a>
+        <a class="btn btn-xs btn-primary" ui-sref="products.search">
+            <i class="fa fa-search"></i>
+            Product Search
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6">
+        <span class="pull-right">
+            <button class="btn btn-xs btn-warning" ng-click="vm.UndoChanges()">
+                <i class="fa fa-undo"></i>
+                Undo Changes
+            </button>
+            
+            <button class="btn btn-xs btn-success" ng-click="vm.Save()">
+                <i class="fa fa-save"></i>
+                Save Changes
+            </button>
+            
+            <a class="btn btn-xs btn-danger" ng-if="vm.product.Status"
+               ws-confirm-click-action
+               ws-confirm-click-action-method="vm.deleteProduct"
+               ws-confirm-action-config="{message:'Are you sure you want to delete the product?', data:vm.product.Id}">
+                <i class="fa fa-trash"></i>
+                Delete
+            </a>
+            
+            <a class="btn btn-xs btn-primary" ng-if="!vm.product.Status"
+               ws-confirm-click-action
+               ws-confirm-click-action-method="vm.activateProduct"
+               ws-confirm-action-config="{message:'Are you sure you want to activate the product?', data:vm.product.Id}">
+                <i class="fa fa-star"></i>
+                Activate
+            </a>
+
+            <a class="btn btn-xs btn-primary" ui-sref="products.details({id:vm.product.Id})">
+                <i class="fa fa-eye"></i>
+                View Details
+            </a>
+        </span>
+    </div>
+</action-well>

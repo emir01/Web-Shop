@@ -1,0 +1,11 @@
+﻿@media (min-height: 768px) {
+  #product-grid {
+    height: 480px;
+  }
+}
+
+@media (min-height: 900px) {
+  #product-grid {
+    height: 615px;
+  }
+}

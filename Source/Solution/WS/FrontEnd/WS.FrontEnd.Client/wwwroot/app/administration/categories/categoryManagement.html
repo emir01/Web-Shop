@@ -1,0 +1,40 @@
+﻿<div class="row">
+    <div view-title="Categories"></div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="row">
+            <div class="col-xs-12">
+                <ws-tree-data data="vm.categories"
+                              handler="vm.selectCategoryHandler"
+                              mark="true"
+                              selected="vm.selectedCategory"
+                              display-property-name="Name"
+                              value-property-name="Id"
+                              children-property-name="ChildCategories"></ws-tree-data>
+            </div>
+        </div>
+
+        <div class="text-center row">
+            <div class="col-xs-12">
+                <button data-ng-click="vm.PersistCategories()" class="btn btn-primary">
+                    <i class="fa fa-save">
+                    </i>
+                    Save
+                </button>
+
+                <button data-ng-click="vm.RefreshCategories()" class="btn btn-success">
+                    <i class="fa fa-refresh">
+                    </i>
+                    Refresh
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-8">
+        <div ui-view></div>
+    </div>
+</div>
+
+<div data-ng-include="'app/administration/categories/categoryModal.html'"></div>

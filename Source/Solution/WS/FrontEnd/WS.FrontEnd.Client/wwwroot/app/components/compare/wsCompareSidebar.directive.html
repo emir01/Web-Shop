@@ -1,0 +1,35 @@
+﻿<div ng-if="vm.SelectedCompareProducts.length > 0" class="compare-sidebar">
+    <h3 class="text-center">Compare</h3>
+    
+    <div class="list-group">
+
+        <div class="list-group-item" ng-repeat="product in vm.SelectedCompareProducts">
+            <div>
+                <span class="pull-left compare-item-text">
+                    {{product.Name}}
+                </span>
+                <span class="pull-right">
+                    <ws-product-edit-action show-label="false" product="product"></ws-product-edit-action>
+
+                    <button class="btn btn-warning btn-xs" ng-click="vm.RemoveFromCompare(product.Id)">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                </span>
+                <span class="clearfix"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a class="btn btn-primary btn-xs" ng-click="vm.NavigateToCompare($event)">
+            <i class="fa fa-arrow-circle-o-right"></i>
+            Compare Products
+        </a>
+
+        <button class="btn btn-warning btn-xs" ng-click="vm.ClearCompareProducts()">
+            <i class="fa fa-times"></i>
+            Clear
+        </button>
+    </div>
+</div>
+

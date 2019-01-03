@@ -1,0 +1,14 @@
+﻿<h1 class="productName-name">
+    {{product.Name}}
+</h1>
+
+<span class="productName-by" data-ng-if="showManufacturer">
+    <b>by</b>
+</span>
+<span class="productName-manufacturer" data-ng-if="showManufacturer">
+    <h3>
+        <b class="label label-warning">
+            <manufacturer-search-link manufacturer-id="product.Manufacturer.Id" manufacturer-name="product.Manufacturer.Name"></manufacturer-search-link>
+        </b>
+    </h3>
+</span>

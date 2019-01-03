@@ -1,0 +1,6 @@
+﻿<ui-select ng-model="vm.selectedManufacturer">
+    <ui-select-match allow-clear="true" placeholder="Manufacturer">{{$select.selected.Name}}</ui-select-match>
+    <ui-select-choices repeat="manufacturer in vm.manufacturers | filter: $select.search ">
+        <span ng-bind-html="manufacturer.Name | highlight: $select.search"></span>
+    </ui-select-choices>
+</ui-select>

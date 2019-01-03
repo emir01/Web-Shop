@@ -1,0 +1,61 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1548" measuredH="759" mockupW="1538" mockupH="750">
+  <controls>
+    <control controlID="17" controlTypeID="__group__" x="10" y="9" w="1538" h="750" measuredW="1538" measuredH="750" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>00_Admin_Base</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="1538" h="750" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="17">
+          <controlProperties>
+            <text>A%20Web%20Page%0Ahttp%3A//</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="15" y="159" w="1508" h="557" measuredW="200" measuredH="272" zOrder="1" locked="false" isInGroup="17">
+          <controlProperties>
+            <hrefs>Admin_01_Dashboard%26bm%3BAdmin_01_Dashboard.bmml%26bm%3BAdmin_01_Dashboard.bmml%26bm%3BAdmin_01_Dashboard.bmml%2CAdmin_02_General%26bm%3BAdmin_02_General.bmml%26bm%3BAdmin_02_General.bmml%26bm%3BAdmin_02_General.bmml%2CAdmin_03_Categories%26bm%3BAdmin_03_Categories.bmml%26bm%3BAdmin_03_Categories.bmml%26bm%3BAdmin_03_Categories.bmml%2CAdmin_04_Manufacturers%26bm%3BAdmin_04_Manufacturers.bmml%26bm%3BAdmin_04_Manufacturers.bmml%26bm%3BAdmin_04_Manufacturers.bmml%2CAdmin_05_Tags%26bm%3BAdmin_05_Tags.bmml%26bm%3BAdmin_05_Tags.bmml%26bm%3BAdmin_05_Tags.bmml%2CAdmin_06_Products%26bm%3BAdmin_06_Products.bmml%26bm%3BAdmin_06_Products.bmml%26bm%3BAdmin_06_Products.bmml%2CAdmin_07_StockMetricTemplates%26bm%3BAdmin_07_StockMetricTemplates.bmml%26bm%3BAdmin_07_StockMetricTemplates.bmml%26bm%3BAdmin_07_StockMetricTemplates.bmml</hrefs>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C179%2C110%2C209%22%20href%3D%22Admin_01_Dashboard.bmml%22%20alt%3D%22Admin_01_Dashboard%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C207%2C110%2C237%22%20href%3D%22Admin_02_General.bmml%22%20alt%3D%22Admin_02_General%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C235%2C110%2C265%22%20href%3D%22Admin_03_Categories.bmml%22%20alt%3D%22Admin_03_Categories%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C263%2C110%2C293%22%20href%3D%22Admin_04_Manufacturers.bmml%22%20alt%3D%22Admin_04_Manufacturers%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C291%2C110%2C321%22%20href%3D%22Admin_05_Tags.bmml%22%20alt%3D%22Admin_05_Tags%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C319%2C110%2C349%22%20href%3D%22Admin_06_Products.bmml%22%20alt%3D%22Admin_06_Products%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C347%2C110%2C377%22%20href%3D%22Admin_07_StockMetricTemplates.bmml%22%20alt%3D%22Admin_07_StockMetricTemplates%22%20id%3D%221%22/%3E</map>
+            <text>Dashboard%0AGeneral%0ACategories%0AManufacturers%0ATags%0AProducts%0AS.M%20Tmpls</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="120" y="167" w="-1" h="-1" measuredW="190" measuredH="28" zOrder="2" locked="false" isInGroup="17">
+          <controlProperties>
+            <size>20</size>
+            <text>%5B%20Page%20Header%20Text%20%5D</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="15" y="82" w="1508" h="70" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="17"/>
+        <control controlID="4" controlTypeID="__group__" x="1337" y="104" w="171" h="27" measuredW="171" measuredH="27" zOrder="4" locked="false" isInGroup="17">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="100" y="0" w="-1" h="-1" measuredW="71" measuredH="27" zOrder="0" locked="false" isInGroup="4">
+              <controlProperties>
+                <text>Log%20Out</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="1" w="-1" h="-1" measuredW="87" measuredH="24" zOrder="1" locked="false" isInGroup="4">
+              <controlProperties>
+                <size>16</size>
+                <text>Hello%2C%20Admin</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="5" controlTypeID="__group__" x="30" y="96" w="426" h="43" measuredW="426" measuredH="43" zOrder="5" locked="false" isInGroup="17">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="81" y="6" w="345" h="35" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="5">
+              <controlProperties>
+                <size>32</size>
+                <text>Bike%20Store%20Web%20Shop</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="70" h="43" measuredW="287" measuredH="176" zOrder="1" locked="false" isInGroup="5">
+              <controlProperties>
+                <rotation>0</rotation>
+                <src>./assets/download.jpg</src>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

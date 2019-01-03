@@ -1,0 +1,27 @@
+﻿<div view-title="Product Edit: {{vm.product.Name}}" sub-title="{{vm.createSubtitle()}}"></div>
+
+<div data-ng-include="'app/administration/products/templates/productEditActions.html'"></div>
+
+<div class="row">
+    <div class="col-xs-6">
+        <div data-ng-include="'app/administration/products/templates/productEditBasicInfo.html'"></div>
+    </div>
+
+    <div class="col-xs-6">
+        <div data-ng-include="'app/administration/products/templates/productEditPricing.html'"></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <div data-ng-include="'app/administration/products/templates/productEditDetails.html'"></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <div data-ng-include="'app/administration/products/templates/productEditImages.html'"></div>
+    </div>
+</div>
+
+<div data-ng-include="'app/administration/products/templates/productEditActions.html'"></div>

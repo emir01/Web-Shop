@@ -1,0 +1,12 @@
+﻿<span show-if-logged>
+    <button ws-confirm-click-action
+            ws-confirm-click-action-method="vm.delete"
+            ws-confirm-action-config="{message:'Are you sure you want to delete the product?', data:vm.product}"
+            class="btn btn-danger btn-xs">
+        <i class="fa fa-edit">
+        </i>
+        <span data-ng-if="showLabel">
+            Delete
+        </span>
+    </button>
+</span>

@@ -1,0 +1,16 @@
+﻿<h2>Images</h2>
+<hr />
+
+<div class="text-center">
+    <button class="btn btn-success" ngf-select="vm.Upload($file)">
+        <i class="fa fa-upload"></i>
+        Upload File
+    </button>
+</div>
+
+<ws-images-manager ws-image-data="vm.product.ProductImages"
+                   ws-active-flag-name="IsPrimary"
+                   ws-image-uri-prop-name="Image.Uri"
+                   ws-image-removed-prop-value="4"
+                   ws-image-removed-prop-name="State">
+</ws-images-manager>

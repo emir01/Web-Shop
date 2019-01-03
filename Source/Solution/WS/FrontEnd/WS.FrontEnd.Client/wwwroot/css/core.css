@@ -1,0 +1,31 @@
+﻿body {
+    padding-top: 45px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+#content {
+    position: relative;
+}
+
+.core-ui-view.ng-enter {
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+.separated-row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.search-link {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .search-link:hover {
+        color: #fff;
+        text-decoration: underline;
+    }

@@ -1,0 +1,47 @@
+﻿.wsTreeDataComponent {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    border-right: 1px solid #CCC;
+    position: relative;
+}
+
+    .wsTreeDataComponent ul {
+        list-style: none;
+    }
+
+    .wsTreeDataComponent li {
+        padding: 5px;
+    }
+
+        .wsTreeDataComponent li .item {
+            padding: 2px;
+        }
+
+            .wsTreeDataComponent li .item:hover {
+                cursor: pointer;
+                background-color: #eaeaea;
+            }
+
+            .wsTreeDataComponent li .item.selected {
+                font-weight: bold;
+            }
+
+            .wsTreeDataComponent li .item .item_text {
+                display: inline-block;
+            }
+
+            .wsTreeDataComponent li .item .item_collapse {
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                text-align: center;
+            }
+
+                .wsTreeDataComponent li .item .item_collapse:hover {
+                    background-color: #CCC;
+                }
+
+            .wsTreeDataComponent li .item .item_background:hover {
+                display: block;
+            }

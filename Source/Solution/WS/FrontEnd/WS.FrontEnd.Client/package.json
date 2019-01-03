@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "name": "WS.FrontEnd.Client",
+  "private": true,
+  "devDependencies": {
+    "add-stream": "^1.0.0",
+    "bower": "^1.5.2",
+    "gulp": "3.9.1",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "2.6.1",
+    "gulp-count": "^0.3.0",
+    "gulp-cssimport": "^5.0.0",
+    "gulp-flatten": "^0.3.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-inject": "^4.1.0",
+    "gulp-live-server": "0.0.30",
+    "gulp-main-bower-files": "^1.5.3",
+    "gulp-pipemin": "^2.2.4",
+    "gulp-print": "^2.0.1",
+    "gulp-rev": "^7.1.2",
+    "gulp-serve": "^1.4.0",
+    "gulp-size": "^2.1.0",
+    "gulp-sizereport": "^1.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "main-bower-files": "^2.13.1",
+    "stream-series": "^0.1.1",
+    "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "gulp-uglifycss": "^1.0.6"
+  }
+}

@@ -1,0 +1,31 @@
+﻿<script type="text/ng-template" id="manufacturerModal.html">
+    <div class="modal-header">
+        <h3 class="modal-title">{{vm.ModalHeader}}</h3>
+    </div>
+
+    <div class="modal-body" data-ng-keyup="vm.CheckKey($event)">
+        <form>
+            <div class="form-group">
+                <label for="input_edit_tag_name">Manufacturer name</label>
+                <input type="text"
+                       class="form-control"
+                       id="input_edit_tag_name"
+                       focus-if="vm.Rendered"
+                       focus-delay="50"
+                       placeholder="Manufacturer Name"
+                       data-ng-model="vm.entity.Name">
+            </div>
+        </form>
+    </div>
+    
+    <div class="modal-footer">
+        <button class="btn btn-primary" type="button" ng-click="vm.ok()">
+            <i class="fa fa-check"> </i>
+            OK
+        </button>
+        <button class="btn btn-warning" type="button" ng-click="vm.cancel()">
+            <i class="fa fa-times"> </i>
+            Cancel
+        </button>
+    </div>
+</script>

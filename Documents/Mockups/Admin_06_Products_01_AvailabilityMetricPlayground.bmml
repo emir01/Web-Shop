@@ -1,0 +1,272 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1546" measuredH="762" mockupW="1538" mockupH="750">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Tree" x="134" y="267" w="300" h="398" measuredW="300" measuredH="327" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>7</selectedIndex>
+        <text>F%20Products%0A%20F%20Bikes%0A%20%20f%20Road%0A%20%20f%20Hybrid%0A%20%20f%20Cross%0A%20%20F%20MTB%0A%20%20%20F%20Trek%0A%20%20%20X-Caliber%205%0A%20%20%20X-Caliber%209%0A%20%20%20f%20Specialized%0A%20%20%20f%20Giant%0A%20%20%20f%20GT%0A%20f%20Gear%0A%20f%20Clothing%0A%20f%20Accessories</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="134" y="217" w="300" h="47" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="144" y="227" w="45" h="27" measuredW="38" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PlusBigIcon%7Cxsmall</icon>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="199" y="227" w="45" h="27" measuredW="38" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DashIcon%7Cxsmall</icon>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::SearchBox" x="252" y="228" w="-1" h="-1" measuredW="120" measuredH="25" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="449" y="217" w="-1" h="-1" measuredW="104" measuredH="28" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>X-Caliber%205</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="__group__" x="459" y="268" w="286" h="47" measuredW="286" measuredH="47" zOrder="7" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Component" x="0" y="0" w="215" h="27" measuredW="215" measuredH="27" zOrder="0" locked="false" isInGroup="57">
+          <controlProperties>
+            <override controlID="0">
+              <text>Name</text>
+            </override>
+            <override controlID="1">
+              <text>X-Caliber%205</text>
+            </override>
+            <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="88" y="29" w="-1" h="-1" measuredW="198" measuredH="18" zOrder="1" locked="false" isInGroup="57">
+          <controlProperties>
+            <bold>true</bold>
+            <size>10</size>
+            <text>Current%20Category%3A%20Bikes%20-%20%3E%20MTB%20-%20%3E%20Trek</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="571" y="221" w="-1" h="-1" measuredW="98" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>13</size>
+        <text>Total%20Available%2011</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::StickyNote" x="894" y="516" w="246" h="114" measuredW="109" measuredH="123" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Metric%20%27S%27%20Is%20Selected.%0A%20%0A%5B%20+%20%5D%20will%20add%20a%20new%20submetric%20to%20S</text>
+      </controlProperties>
+    </control>
+    <control controlID="89" controlTypeID="__group__" x="449" y="330" w="430" h="350" measuredW="430" measuredH="350" zOrder="10" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::FieldSet" x="0" y="0" w="430" h="350" measuredW="200" measuredH="170" zOrder="0" locked="false" isInGroup="89">
+          <controlProperties>
+            <text>Stock%20Metrics</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="9" y="16" w="38" h="28" measuredW="38" measuredH="27" zOrder="1" locked="false" isInGroup="89">
+          <controlProperties>
+            <icon>PlusBigIcon%7Cxsmall</icon>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="92" y="98" w="320" h="43" measuredW="320" measuredH="43" zOrder="2" locked="false" isInGroup="89">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="320" h="43" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <color>10470904</color>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="173" y="8" w="38" h="28" measuredW="38" measuredH="27" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <icon>Trash2Icon%7Cxsmall</icon>
+                <text/>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Component" x="10" y="9" w="153" h="27" measuredW="153" measuredH="27" zOrder="2" locked="false" isInGroup="2">
+              <controlProperties>
+                <override controlID="0" x="0" y="3" w="10" h="21">
+                  <text>S</text>
+                </override>
+                <override controlID="1" x="25" y="0" w="128" h="27">
+                  <text>4</text>
+                </override>
+                <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="43" w="430" h="-1" measuredW="100" measuredH="10" zOrder="3" locked="false" isInGroup="89"/>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::SearchBox" x="301" y="15" w="-1" h="-1" measuredW="120" measuredH="25" zOrder="4" locked="false" isInGroup="89">
+          <controlProperties>
+            <text>search</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="__group__" x="15" y="59" w="400" h="27" measuredW="400" measuredH="27" zOrder="5" locked="false" isInGroup="89">
+          <groupChildrenDescriptors>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Component" x="0" y="0" w="400" h="27" measuredW="400" measuredH="27" zOrder="0" locked="false" isInGroup="5">
+              <controlProperties>
+                <override controlID="0" x="0" y="3" w="76" h="21">
+                  <bold>true</bold>
+                  <text>Total%20Stock</text>
+                </override>
+                <override controlID="1" x="76" y="0" w="324" h="27">
+                  <bold>true</bold>
+                  <state>disabled</state>
+                  <text>11</text>
+                </override>
+                <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="6" controlTypeID="__group__" x="130" y="161" w="219" h="28" measuredW="219" measuredH="28" zOrder="6" locked="false" isInGroup="89">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="181" y="0" w="38" h="28" measuredW="38" measuredH="27" zOrder="0" locked="false" isInGroup="6">
+              <controlProperties>
+                <icon>Trash2Icon%7Cxsmall</icon>
+                <text/>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="0" y="1" w="172" h="27" measuredW="172" measuredH="27" zOrder="1" locked="false" isInGroup="6">
+              <controlProperties>
+                <override controlID="0" x="0" y="3" w="29" h="21">
+                  <text>Blue</text>
+                </override>
+                <override controlID="1" x="44" y="0" w="128" h="27">
+                  <text>1</text>
+                </override>
+                <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="7" controlTypeID="__group__" x="130" y="198" w="219" h="28" measuredW="219" measuredH="28" zOrder="7" locked="false" isInGroup="89">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="181" y="0" w="38" h="28" measuredW="38" measuredH="27" zOrder="0" locked="false" isInGroup="7">
+              <controlProperties>
+                <icon>Trash2Icon%7Cxsmall</icon>
+                <text/>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="0" y="1" w="172" h="27" measuredW="172" measuredH="27" zOrder="1" locked="false" isInGroup="7">
+              <controlProperties>
+                <override controlID="0" x="0" y="3" w="29" h="21">
+                  <text>Red</text>
+                </override>
+                <override controlID="1" x="44" y="0" w="128" h="27">
+                  <text>3</text>
+                </override>
+                <override controlID="-1"/>
+                <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="8" controlTypeID="__group__" x="92" y="247" w="219" h="28" measuredW="219" measuredH="28" zOrder="8" locked="false" isInGroup="89">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="181" y="0" w="38" h="28" measuredW="38" measuredH="27" zOrder="0" locked="false" isInGroup="8">
+              <controlProperties>
+                <icon>Trash2Icon%7Cxsmall</icon>
+                <text/>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="0" y="1" w="172" h="27" measuredW="172" measuredH="27" zOrder="1" locked="false" isInGroup="8">
+              <controlProperties>
+                <override controlID="0" x="0" y="3" w="29" h="21">
+                  <text>M</text>
+                </override>
+                <override controlID="1" x="44" y="0" w="128" h="27">
+                  <text>5</text>
+                </override>
+                <override controlID="-1"/>
+                <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="9" controlTypeID="__group__" x="92" y="296" w="219" h="28" measuredW="219" measuredH="28" zOrder="9" locked="false" isInGroup="89">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="181" y="0" w="38" h="28" measuredW="38" measuredH="27" zOrder="0" locked="false" isInGroup="9">
+              <controlProperties>
+                <icon>Trash2Icon%7Cxsmall</icon>
+                <text/>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Component" x="0" y="1" w="172" h="27" measuredW="172" measuredH="27" zOrder="1" locked="false" isInGroup="9">
+              <controlProperties>
+                <override controlID="0" x="0" y="3" w="29" h="21">
+                  <text>L</text>
+                </override>
+                <override controlID="1" x="44" y="0" w="128" h="27">
+                  <text>2</text>
+                </override>
+                <src>./assets/General_Forms_01_TextInput.bmml#General_Forms_TextInput</src>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::Button" x="58" y="17" w="-1" h="-1" measuredW="187" measuredH="27" zOrder="10" locked="false" isInGroup="89">
+          <controlProperties>
+            <icon>DownloadIcon%7Csmall</icon>
+            <text>Import%20Metric%20Template</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::Link" x="776" y="254" w="-1" h="-1" measuredW="306" measuredH="46" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Admin_06_Products%26bm%3BAdmin_06_Products.bmml%26bm%3BAdmin_06_Products.bmml%26bm%3BAdmin_06_Products.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22768%2C242%2C1074%2C288%22%20href%3D%22Admin_06_Products.bmml%22%20alt%3D%22Admin_06_Products%22%20id%3D%2290%22/%3E</map>
+        <size>40</size>
+        <text>Other%20Base%20Data</text>
+      </controlProperties>
+    </control>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::StickyNote" x="1155" y="254" w="246" h="88" measuredW="109" measuredH="123" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>View%20Other%20Base%20DAta.%0ASeparatet%20for%20View-ability</text>
+      </controlProperties>
+    </control>
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::StickyNote" x="894" y="376" w="246" h="114" measuredW="109" measuredH="123" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>If%20Total%20Stock%20has%20no%20child%20metrics.%0ATotal%20Stock%20is%20only%20editable%20field</text>
+      </controlProperties>
+    </control>
+    <control controlID="93" controlTypeID="com.balsamiq.mockups::Button" x="506" y="435" w="27" h="25" measuredW="38" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>DashIcon%7Cxsmall</icon>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="94" controlTypeID="com.balsamiq.mockups::Button" x="506" y="577" w="27" h="25" measuredW="38" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PlusBigIcon%7Cxsmall</icon>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="95" controlTypeID="com.balsamiq.mockups::Button" x="506" y="630" w="27" h="25" measuredW="38" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PlusBigIcon%7Cxsmall</icon>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="96" controlTypeID="com.balsamiq.mockups::Component" x="8" y="12" w="1538" h="750" measuredW="1538" measuredH="750" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C179%2C110%2C209%22%20href%3D%22Admin_01_Dashboard.bmml%22%20alt%3D%22Admin_01_Dashboard%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C207%2C110%2C237%22%20href%3D%22Admin_02_General.bmml%22%20alt%3D%22Admin_02_General%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C235%2C110%2C265%22%20href%3D%22Admin_03_Categories.bmml%22%20alt%3D%22Admin_03_Categories%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C263%2C110%2C293%22%20href%3D%22Admin_04_Manufacturers.bmml%22%20alt%3D%22Admin_04_Manufacturers%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C291%2C110%2C321%22%20href%3D%22Admin_05_Tags.bmml%22%20alt%3D%22Admin_05_Tags%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C319%2C110%2C349%22%20href%3D%22Admin_06_Products.bmml%22%20alt%3D%22Admin_06_Products%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2215%2C347%2C110%2C377%22%20href%3D%22Admin_07_StockMetricTemplates.bmml%22%20alt%3D%22Admin_07_StockMetricTemplates%22%20id%3D%221%22/%3E</map>
+        <override controlID="0">
+          <text>Bike%20Store%20Web%20Shop%0Ahttp%3A//bikestore.webshop.mk/%23/admin/products</text>
+        </override>
+        <override controlID="1">
+          <selectedIndex>5</selectedIndex>
+        </override>
+        <override controlID="2">
+          <text>Products</text>
+        </override>
+        <src>./assets/00_Admin_Base.bmml#00_Admin_Base</src>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net46": {
+      "wrappedProject": "../../Core/WS.Core.Toolbox/WS.Core.Toolbox.csproj",
+      "bin": {
+        "assembly": "../../Core/WS.Core.Toolbox/obj/{configuration}/WS.Core.Toolbox.dll",
+        "pdb": "../../Core/WS.Core.Toolbox/obj/{configuration}/WS.Core.Toolbox.pdb"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+﻿<div class="row">
+    <div class="col-xs-12">
+        <h1>Products Compare</h1>
+
+        <div class="row compare-names">
+            <div class="col-xs-6">
+                <ws-product-name show-manufacturer="false" product="vm.FirstProduct"></ws-product-name>
+                <ws-product-edit-action product="vm.FirstProduct"></ws-product-edit-action>
+            </div>
+            <div class="col-xs-6">
+                <ws-product-name show-manufacturer="false" product="vm.SecondProduct"></ws-product-name>
+                <ws-product-edit-action product="vm.SecondProduct"></ws-product-edit-action>
+            </div>
+        </div>
+
+        <div class="row compare-images">
+            <div class="col-xs-6">
+                <ws-image ws-images-data="vm.FirstProduct.ProductImages"
+                          ws-alt-image="vm.FirstProduct.Category.CategoryImage"
+                          ws-active-flag-name="IsPrimary"
+                          ws-active-image-uri="Image.Uri">
+                </ws-image>
+            </div>
+            <div class="col-xs-6">
+                <ws-image ws-images-data="vm.SecondProduct.ProductImages"
+                          ws-alt-image="vm.SecondProduct.Category.CategoryImage"
+                          ws-active-flag-name="IsPrimary"
+                          ws-active-image-uri="Image.Uri">
+                </ws-image>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <ws-compare-entity-renderer entities-Compare-Object="vm.EntitiesCompare"></ws-compare-entity-renderer>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <ng-include src="'app/products/compare/productsCompareTags.html'"></ng-include>
+    </div>
+</div>

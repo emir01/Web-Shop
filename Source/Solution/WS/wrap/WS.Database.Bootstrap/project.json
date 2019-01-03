@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net46": {
+      "wrappedProject": "../../Database/WS.Database.Migrations/WS.Database.Bootstrap.csproj",
+      "bin": {
+        "assembly": "../../Database/WS.Database.Migrations/obj/{configuration}/WS.Database.Bootstrap.dll",
+        "pdb": "../../Database/WS.Database.Migrations/obj/{configuration}/WS.Database.Bootstrap.pdb"
+      },
+      "dependencies": {
+        "EntityFramework": "6.1.2-beta2",
+        "WS.Core.Toolbox": "1.0.0-*",
+        "WS.Database.Configuration": "1.0.0-*",
+        "WS.Database.Domain": "1.0.0-*"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+﻿<div data-ng-show="vm.tags.length > 0">
+    <div class="table-responsive ">
+        <table class="table table-condensed table-striped">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-ng-repeat="property in vm.filteredTags | orderBy:Id">
+                    <td>
+                        <b>{{property.Name}}</b>
+                    </td>
+                    <td>{{property.Value}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

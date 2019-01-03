@@ -1,0 +1,73 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1560" measuredH="770" mockupW="1538" mockupH="750">
+  <controls>
+    <control controlID="5" controlTypeID="__group__" x="22" y="20" w="1538" h="750" measuredW="1538" measuredH="750" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>00_Client_Base</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="19" controlTypeID="__group__" x="0" y="0" w="1538" h="750" measuredW="1538" measuredH="750" zOrder="0" locked="false" isInGroup="5">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="1538" h="750" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="19">
+              <controlProperties>
+                <text>Bike%20Store%0Ahttp%3A//bikestore.webshop.mk/%23/home</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="15" y="82" w="1508" h="70" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="19"/>
+            <control controlID="2" controlTypeID="__group__" x="993" y="104" w="515" h="27" measuredW="515" measuredH="27" zOrder="2" locked="false" isInGroup="19">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="100" y="0" w="-1" h="-1" measuredW="71" measuredH="27" zOrder="0" locked="false" isInGroup="2">
+                  <controlProperties>
+                    <text>Log%20Out</text>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="1" w="-1" h="-1" measuredW="78" measuredH="24" zOrder="1" locked="false" isInGroup="2">
+                  <controlProperties>
+                    <size>16</size>
+                    <text>Hello%2C%20User</text>
+                  </controlProperties>
+                </control>
+                <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="185" y="0" w="-1" h="-1" measuredW="146" measuredH="27" zOrder="2" locked="false" isInGroup="2">
+                  <controlProperties>
+                    <text>View%20saved%20Products</text>
+                  </controlProperties>
+                </control>
+                <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="344" y="0" w="-1" h="-1" measuredW="80" measuredH="27" zOrder="3" locked="false" isInGroup="2">
+                  <controlProperties>
+                    <text>My%20Profile</text>
+                  </controlProperties>
+                </control>
+                <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="438" y="0" w="-1" h="-1" measuredW="77" measuredH="27" zOrder="4" locked="false" isInGroup="2">
+                  <controlProperties>
+                    <text>All%20Shops</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="3" controlTypeID="__group__" x="30" y="96" w="426" h="43" measuredW="426" measuredH="43" zOrder="3" locked="false" isInGroup="19">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="81" y="6" w="345" h="35" measuredW="275" measuredH="80" zOrder="0" locked="false" isInGroup="3">
+                  <controlProperties>
+                    <size>32</size>
+                    <text>Bike%20Store%20Web%20Shop</text>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="70" h="43" measuredW="287" measuredH="176" zOrder="1" locked="false" isInGroup="3">
+                  <controlProperties>
+                    <rotation>0</rotation>
+                    <src>./assets/download.jpg</src>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::MenuBar" x="432" y="103" w="-1" h="-1" measuredW="243" measuredH="29" zOrder="4" locked="false" isInGroup="19">
+              <controlProperties>
+                <selectedIndex>0</selectedIndex>
+                <text>Store%20Home%2C%20Products%2C%20Contact</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

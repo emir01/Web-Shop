@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D39A4061-ADAA-4D7D-B919-5FAFC4B6987E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WS.Logic.Products</RootNamespace>
+    <AssemblyName>WS.Logic.Products</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.0.4.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\AutoMapper.4.0.4\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CategoryLogic.cs" />
+    <Compile Include="Extensions\CategoryExtensions.cs" />
+    <Compile Include="Interface\ICategoryLogic.cs" />
+    <Compile Include="Interface\IManufacturerLogic.cs" />
+    <Compile Include="Interface\IProductLogic.cs" />
+    <Compile Include="Interface\ITagTypesLogic.cs" />
+    <Compile Include="ManufacturerLogic.cs" />
+    <Compile Include="Objects\CategoryOperationObject.cs" />
+    <Compile Include="Objects\CompareProperty.cs" />
+    <Compile Include="Objects\ComparePropertyValue.cs" />
+    <Compile Include="Objects\EntityCompareObject.cs" />
+    <Compile Include="Objects\ManufacturerOperationObject.cs" />
+    <Compile Include="Objects\ProductOperationObject.cs" />
+    <Compile Include="ProductCompareLogic.cs" />
+    <Compile Include="TagTypesLogic.cs" />
+    <Compile Include="Mappings\ProductLogicAutoMapperConfig.cs" />
+    <Compile Include="Objects\ProductEditObject.cs" />
+    <Compile Include="Objects\ProductProperty.cs" />
+    <Compile Include="ProductLogic.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Database\WS.Database.Access\WS.Database.Access.csproj">
+      <Project>{3A511F93-CD07-484C-9075-89BFF7EE5F38}</Project>
+      <Name>WS.Database.Access</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Database\WS.Database.Domain\WS.Database.Domain.csproj">
+      <Project>{046F0A54-6E25-4F39-BBEA-3967905A8D6C}</Project>
+      <Name>WS.Database.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Database\WS.Database.Migrations\WS.Database.Bootstrap.csproj">
+      <Project>{BF914190-6375-4F58-8240-A62CFD8EF153}</Project>
+      <Name>WS.Database.Bootstrap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FrontEnd\WS.FrontEnd.ApiContracts\WS.Contracts.Contracts.csproj">
+      <Project>{FEF340DB-BD1C-4BA0-B235-DE3C4568FDDB}</Project>
+      <Name>WS.Contracts.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WS.Logic.Operationals\WS.Logic.Core.csproj">
+      <Project>{7BFF1FA9-04E3-4817-B220-604CC2416C93}</Project>
+      <Name>WS.Logic.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

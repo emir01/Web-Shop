@@ -1,0 +1,18 @@
+﻿.categoryManagement-subCategories .children .child {
+    margin-bottom: 5px;
+}
+
+    .categoryManagement-subCategories .children .child span:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .categoryManagement-subCategories .children .child span.selected {
+        font-weight: bold;
+    }
+
+.categoryManagement-subCategories .actions {
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid #ccc;
+}

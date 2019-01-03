@@ -1,0 +1,7 @@
+﻿.product-details-title {
+    margin-bottom: 20px;
+}
+    .product-details-title .productName-name {
+        font-size: 70px;
+        font-weight: normal;
+    }

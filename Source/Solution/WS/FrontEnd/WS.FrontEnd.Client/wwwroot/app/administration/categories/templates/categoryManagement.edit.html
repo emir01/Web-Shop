@@ -1,0 +1,60 @@
+﻿<h3 class="text-center">
+    {{vm.category.Name}}
+</h3>
+<div class="well text-center">
+    <button data-ng-click="vm.removeSelectedCategory()" class="btn-default btn btn-danger">
+        <i class="fa fa-trash">
+        </i>
+        Delete
+    </button>
+</div>
+
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="category_name" class="col-sm-4 control-label">Category Name</label>
+        <div class="col-sm-8">
+            <input type="text"
+                   class="form-control"
+                   id="category_name"
+                   data-ng-model="vm.category.Name"
+                   placeholder="Name">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="category_name" class="col-sm-4 control-label">Category Description</label>
+        <div class="col-sm-8">
+            <textarea placeholder="Description" class="form-control" data-ng-model="vm.category.Description"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group categoryManagement-subCategories">
+        <label for="category_name" class="col-sm-4 control-label">Child Categories</label>
+        <div class="col-sm-8">
+
+            <div class="children">
+                <div class="child" data-ng-repeat="child in vm.category.ChildCategories | entityNotDeletedFilter">
+                    <span data-ng-class="vm.isChildSelected(child)" data-ng-click="vm.selectChildCategory(child)">
+                        {{child.Name}}
+                    </span>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button data-ng-click="vm.addChildCategory()" class="btn-xs btn btn-default btn-success">
+                    Add
+                </button>
+                <button data-ng-click="vm.editChildCategory()" class="btn-xs btn btn-default">
+                    Edit
+                </button>
+                <button data-ng-click="vm.deleteChildCategory()" class="btn-xs btn btn-default btn-danger">Delete </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div data-ng-include="'app/administration/categories/templates/categoryManagementImage.html'"></div>
+        </div>
+    </div>
+</form>

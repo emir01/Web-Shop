@@ -1,0 +1,69 @@
+﻿<div class="row ">
+    <div class="col-xs-12">
+        <div class="product-details-title text-center">
+            <ws-product-name product="vm.product"></ws-product-name>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+        <div class="panel panel-default" data-ng-if="vm.showImage">
+            <div class="panel-heading text-center">Images</div>
+            <div class="panel-body">
+                <ws-images-manager ws-image-data="vm.product.ProductImages"
+                                   ws-alt-image-url="vm.product.Category.CategoryImage"
+                                   ws-active-flag-name="IsPrimary"
+                                   ws-display-only="true"
+                                   ws-image-uri-prop-name="Image.Uri">
+                </ws-images-manager>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <div class="panel panel-default">
+            <div class="panel-heading text-center">Information</div>
+            <div class="panel-body">
+            <div class="row">
+                    <div class="col-xs-12 pull-left">
+                        <category-list categories="vm.product.CategoryHirearchy"></category-list>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ws-product-description product="vm.product" show-label="false"></ws-product-description>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h1>
+                            <ws-product-price price="vm.activePrice()" label="Price">
+                            </ws-product-price>
+                        </h1>
+                    </div>
+
+                    <div class="col-xs-12 text-center" ng-if="vm.regularPriceSet(vm.product)">
+                        <h3>
+                            <ws-product-price price="vm.product.PriceRegular" label="Regular Price">
+                            </ws-product-price>
+                        </h3>
+                    </div>
+
+                    <div class="col-xs-12 text-center" ng-if="vm.regularPriceSet(vm.product)">
+                        <h4>
+                            Discount of: <b>{{vm.calculateDiscount(vm.product.PriceRegular, vm.product.PriceCurrent) | percentage:0}}</b>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="col-xs-12">
+                    <p data-ng-if="vm.showTags">
+                        <ws-product-tags filter-on-value="true" tags="vm.product.Properties"></ws-product-tags>
+                    </p>
+                </div>
+            </div> <!--End Panel Body-->
+        </div> <!--End Panel Primary-->
+    </div><!--End Right Column with details-->
+</div>

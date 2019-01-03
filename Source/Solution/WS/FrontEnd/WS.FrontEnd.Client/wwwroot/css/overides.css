@@ -1,0 +1,28 @@
+﻿/*
+    Overide the UI Select Theme Settings
+*/
+
+.ui-select-toggle.btn {
+    background-color: #FFF !important;
+}
+
+/*
+    Trix Editor Overides
+*/
+
+trix-editor {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.dw-loading-body {
+    color: #007196;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.custom-loading .dw-loading-body {
+    position: fixed !important;
+    top: 50%;
+    margin-top: -20px !important;
+}

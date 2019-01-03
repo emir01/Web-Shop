@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{046F0A54-6E25-4F39-BBEA-3967905A8D6C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WS.Database.Domain</RootNamespace>
+    <AssemblyName>WS.Database.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Availability\AvailabilityMetricTemplate.cs" />
+    <Compile Include="Availability\AvailabilityMetricUnit.cs" />
+    <Compile Include="Base\IClientEntity.cs" />
+    <Compile Include="Base\IHaveEntityState.cs" />
+    <Compile Include="Base\ITenantEntity.cs" />
+    <Compile Include="Base\WsEntityState.cs" />
+    <Compile Include="Company\TenantMetricTemplate.cs" />
+    <Compile Include="Base\Entity.cs" />
+    <Compile Include="Categorization\Category.cs" />
+    <Compile Include="Company\TenantCategory.cs" />
+    <Compile Include="Categorization\Manufacturer.cs" />
+    <Compile Include="Company\TenantManufacturer.cs" />
+    <Compile Include="Company\BusinessDomain.cs" />
+    <Compile Include="Core\Country.cs" />
+    <Compile Include="Core\AppImage.cs" />
+    <Compile Include="Core\User.cs" />
+    <Compile Include="Company\Tenant.cs" />
+    <Compile Include="Core\AppUrl.cs" />
+    <Compile Include="Core\UserProduct.cs" />
+    <Compile Include="EntityMetaManager.cs" />
+    <Compile Include="Products\Product.cs" />
+    <Compile Include="Products\ProductImage.cs" />
+    <Compile Include="Products\ProductMetricValue.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Company\TenantUrlHistory.cs" />
+    <Compile Include="Products\ProductTagValue.cs" />
+    <Compile Include="Company\TenantTagType.cs" />
+    <Compile Include="Tagging\TagType.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

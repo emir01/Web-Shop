@@ -1,0 +1,7 @@
+﻿<ui-select ng-model="vm.selectedCategory">
+    <ui-select-match allow-clear="true"  placeholder="Category">{{$select.selected.Name}}</ui-select-match>
+    <ui-select-choices repeat="category in vm.categories | filter: $select.search ">
+        {{vm.renderHirearchyDepthIndicator(category)}}
+        <span ng-bind-html="category.Name | highlight: $select.search"></span>
+    </ui-select-choices>
+</ui-select>

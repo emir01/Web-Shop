@@ -1,0 +1,80 @@
+﻿<div class="row">
+    <div view-title="Tags"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <ws-tree-data data="vm.categories"
+                      handler="vm.selectCategoryHandler"
+                      mark="true"
+                      selected="vm.selectedCategory"
+                      display-property-name="Name"
+                      value-property-name="Id"
+                      children-property-name="ChildCategories"></ws-tree-data>
+    </div>
+
+    <div dw-loading="tags" class="col-md-8">
+        <h3>
+            Tags for Category: {{vm.selectedCategory.Name}}
+        </h3>
+
+        <h4>There are <b>{{vm.tagsForCategory.length}}</b> tags for the given category</h4>
+
+        <hr />
+
+        <div class="well text-center">
+            <button data-ng-click="vm.addNewTag()" class="btn btn-success">
+                <i class="fa fa-plus">
+                </i>
+                Add Tag For Category
+            </button>
+        </div>
+
+        <div class="row">
+            <table ng-show="vm.tagsForCategory.length > 0" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>
+                            Tag Id
+                        </th>
+                        <th>
+                            Tag Name
+                        </th>
+
+                        <th>
+                            Is Own Tag
+                        </th>
+
+                        <th>
+                            Actions
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr class="text-center" data-ng-repeat="tag in vm.tagsForCategory">
+                        <td>{{tag.Id}}</td>
+                        <td>{{tag.Name}}</td>
+                        <td></td>
+                        <td>
+                            <button class="btn btn-primary" data-ng-click="vm.editTag(tag)">
+                                <i class="fa fa-edit"></i>
+                                Edit
+                            </button>
+
+                            <button class="btn btn-danger"
+                                    ws-confirm-click-action
+                                    ws-confirm-click-action-method="vm.deleteTagAfterConfirm"
+                                    ws-confirm-action-config="{message:'Are you sure you want to delete the tag?', data:tag}">
+                                <i class="fa fa-trash"></i>
+                                Delete
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- Include the template for the modal window -->
+<div data-ng-include="'app/administration/tags/tagModal.html'"></div>

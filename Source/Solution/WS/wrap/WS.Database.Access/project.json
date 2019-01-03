@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net46": {
+      "wrappedProject": "../../Database/WS.Database.Access/WS.Database.Access.csproj",
+      "bin": {
+        "assembly": "../../Database/WS.Database.Access/obj/{configuration}/WS.Database.Access.dll",
+        "pdb": "../../Database/WS.Database.Access/obj/{configuration}/WS.Database.Access.pdb"
+      },
+      "dependencies": {
+        "EntityFramework": "6.1.2-beta2",
+        "WS.Database.Domain": "1.0.0-*",
+        "WS.Database.Bootstrap": "1.0.0-*"
+      }
+    }
+  }
+}

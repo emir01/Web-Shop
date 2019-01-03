@@ -1,0 +1,25 @@
+﻿.images-manager { text-align: center; }
+
+.images-manager .images-list .image-wrapper {
+    display: inline-block;
+    margin: 10px;
+}
+
+.images-manager .images-list img.image-preview {
+    display: block;
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+}
+
+.images-manager .images-list img.image-preview:hover {
+    background-color: #CCC;
+    cursor: pointer;
+}
+
+.images-manager .images-list img.image-preview.active { background-color: #9a9a9a; }
+
+.images-manager .actions { margin-top: 20px; }
+
+.images-manager .displayOnly img { max-height: 500px; }

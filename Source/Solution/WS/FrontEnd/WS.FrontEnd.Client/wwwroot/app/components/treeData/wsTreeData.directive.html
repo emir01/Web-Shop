@@ -1,0 +1,27 @@
+﻿<ul class="wsTreeDataComponent">
+    <li data-ng-repeat="item in vm.data | entityNotDeletedFilter" ng-include="'itemTree'">
+
+    </li>
+</ul>
+
+<script type="text/ng-template" id="itemTree">
+    <div class="item" data-ng-class="vm.ItemClass(item)" >
+        
+        <div class="item_collapse"
+             data-ng-click="vm.SetChildrenVisibleState(item)"
+             data-ng-show="vm.HasChildren(item)">
+            {{vm.ItemChildrenStateIndicator(item)}}
+        </div>
+        
+        <div class="item_text" data-ng-click="vm.ItemClickHandler(item)">
+            {{item[vm.displayPropertyName]}}
+        </div>
+    
+    </div>
+
+    <ul data-ng-show="vm.AreChildrenVisible(item)" ng-if="item[vm.childrenPropertyName]">
+        <li data-ng-repeat="item in item[vm.childrenPropertyName] | entityNotDeletedFilter" ng-include="'itemTree'">
+        </li>
+    </ul>
+
+</script>

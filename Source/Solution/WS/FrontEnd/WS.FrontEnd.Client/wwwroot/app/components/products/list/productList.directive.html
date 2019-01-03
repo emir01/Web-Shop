@@ -1,0 +1,35 @@
+﻿<div ng-repeat="product in vm.products"
+     ng-attr-class="{{vm.productCardClass}}">
+    <div class="product-list-item-container">
+        <ws-image ws-image-url="vm.ProcessProductImage(product)"></ws-image>
+
+        <div class="caption">
+            <h4 class="text-center">
+                <a ui-sref="products.details({id: product.Id})">
+                    {{product.Name}}
+                </a>
+            </h4>
+            <div class="clearfix"></div>
+
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <span class="label label-warning" ng-click="vm.searchByCategory(product.Category.Id)">
+                        <manufacturer-search-link manufacturer-name="product.Manufacturer" manufacturer-id="product.ManufacturerId"></manufacturer-search-link>
+                    </span>
+                    <span class="label label-info">
+                        <category-search-link category-name="product.Category" category-id="product.CategoryId"></category-search-link>
+                    </span>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <h4 class="text-center">{{product.Price | currency}}</h4>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="actions text-center">
+            <ws-product-edit-action product="product"></ws-product-edit-action>
+            <ws-product-delete-action product="product"></ws-product-delete-action>
+            <ws-compare-action ws-compare-action-product="product"></ws-compare-action>
+        </div>
+    </div>
+</div>

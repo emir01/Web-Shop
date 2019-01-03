@@ -1,0 +1,42 @@
+﻿<div view-title="Products"></div>
+
+<div class="col-xs-12">
+    <action-well>
+        <button class="btn btn-success" ng-click="vm.NewProductHandler()">
+            <i class="fa fa-plus"></i>
+            New
+        </button>
+
+        <a ui-sref="admin.products.edit({id:vm.selectedProduct.Id})" ng-disabled="vm.selectedProduct == null" class="btn btn-primary">
+            <i class="fa fa-edit"></i>
+            Edit
+        </a>
+
+        <button ng-if="vm.selectedProduct != null && vm.selectedProduct.State" class="btn btn-danger"
+                ws-confirm-click-action
+                ws-confirm-click-action-method="vm.DeleteProductHandler"
+                ws-confirm-action-config="{message:'Are you sure you want to delete the product?', data:vm.selectedProduct}">
+            <i class="fa fa-trash"></i>
+            Delete
+        </button>
+
+        <button ng-if="vm.selectedProduct != null && !vm.selectedProduct.State" class="btn btn-success"
+                ws-confirm-click-action
+                ws-confirm-click-action-method="vm.ActivateProductHandler"
+                ws-confirm-action-config="{message:'Are you sure you want to activate the product?', data:vm.selectedProduct}">
+            <i class="fa fa-star"></i>
+            Activate
+        </button>
+
+    </action-well>
+</div>
+
+<div class="col-xs-12">
+    <div id="product-grid"
+         ui-grid="vm.gridOptions"
+         ui-grid-selection
+         ui-grid-pagination
+         style="width: 100%"></div>
+</div>
+
+<div data-ng-include="'app/administration/products/productModal.html'"></div>

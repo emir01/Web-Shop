@@ -1,0 +1,9 @@
+namespace WS.FrontEnd.WebApi.Models
+{
+    public class Query
+    {
+        public int Skip { get; set; }
+
+        public int Take { get; set; }
+    }
+}

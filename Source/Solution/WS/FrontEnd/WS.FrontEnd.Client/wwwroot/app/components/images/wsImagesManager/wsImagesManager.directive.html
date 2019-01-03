@@ -1,0 +1,27 @@
+﻿<div class="images-manager">
+
+    <div ng-if="!vm.IsSingleImage()" class="row images-list">
+        <div class="col-xs-12">
+            <!-- Generate smaller thumbnails -->
+            <div class="image-wrapper" ng-repeat="image in vm.wsImageData | entityNotDeletedFilter">
+                <img class="img-responsive center-block img-thumbnail image-preview"
+                     ng-class="{'active': image[vm.wsActiveFlagName]}" ng-click="vm.SelectImage(image)" ng-src="{{vm.GetImageUrl(image)}}" alt="Description"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="row active-image" ng-show="vm.ImageIsSelected()" ng-class="{'displayOnly':vm.IsDisplayOnly()}">
+        <div class="col-xs-12">
+            <img class="img-responsive center-block img-thumbnail active-image" ng-src="{{vm.GetImageUrl(vm.selectedImage)}}" alt="Description"/>
+        </div>
+    </div>
+
+    <div ng-if="!vm.IsDisplayOnly()" class="text-center row actions" ng-show="vm.ImageIsSelected()">
+        <div class="col-xs-12">
+            <button class="btn btn-sm btn-danger" ng-click="vm.SetSelectedImageAsRemoved()">
+                <i class="fa fa-trash"></i>
+                Remove Image
+            </button>
+        </div>
+    </div>
+</div>
