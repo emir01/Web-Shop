@@ -33,7 +33,4 @@ Additionally some of the custom components used in the solution have been covere
 
 First of all, the code of course! So feel free to explore and browse that.
 
-Additionally everything under the `Documents` folder. Which is the initial mockups for most of the screens done using Balsamiq (included are pdf exports) and database diagrams covering some of the more intersting aspects like the generic product categorizations and dynamic propety definitions
-
-## End Note
-This is the project I used to learn a lot about AngularJs
+Additionally everything under the `Documents` folder. Which is the initial mockups for most of the screens done using Balsamiq (included are pdf exports) and database diagrams covering some of the more intersting aspects like the generic product categorizations and dynamic propety definitions.
